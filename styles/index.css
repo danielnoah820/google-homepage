@@ -101,11 +101,28 @@ footer{
     position: absolute;
     bottom: 0px;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 16px;
+}
+#country{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 25px;
+}
+#country p{
+    position: relative;
+    left: 10px;
+}
+#links{
+    display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 10px 25px;
     background-color: #f2f2f2;
 }
+
 footer a{
     color: black;
     text-decoration: none;
